@@ -20,6 +20,7 @@ ul li {
   color: #fff;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #01111e;
+  margin: 5px;
 }
 .grid {
   width: 300px;
@@ -32,15 +33,15 @@ ul li {
   border: 1px solid #fff;
 }
 .grid-col-4 > li {
-  width: 25%;
+  width: calc(25% - 10px);
   background: #8268c4;
 }
 .grid-col-2 > li {
-  width: 50%;
+  width: calc(50% - 10px);
   background: #68c4be;
 }
 .grid-col-6 > li {
-  width: 16.6%;
+  width: calc(16.6% - 10px);
   background: #68c479;
 }
 
